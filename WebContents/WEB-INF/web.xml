@@ -10,5 +10,13 @@
 		<servlet-name>HelloServlet</servlet-name>
 		<url-pattern>/HelloServlet</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>UserController</servlet-name>
+		<servlet-class>org.jk.user.web.UserController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserController</servlet-name>
+		<url-pattern>/userlist.do</url-pattern>
+	</servlet-mapping>
 
 </web-app>
